@@ -9,5 +9,6 @@ namespace FirstApp.Models
     {
         public String Name { get; set; }
         public string GreetingSuffix { get; set; }
+
     }
 }
