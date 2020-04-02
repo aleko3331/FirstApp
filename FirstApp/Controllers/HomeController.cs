@@ -47,6 +47,16 @@ namespace FirstApp.Controllers
             return View(model);
         }
 
+        public ActionResult News()
+        {
+            return View("News2");
+        }
+
+        public ActionResult News1()
+        {
+            return View("News3");
+        }
+
         public IActionResult Index()
         {
             return View();
